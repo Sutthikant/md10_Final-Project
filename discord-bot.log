@@ -1,0 +1,176 @@
+2023-03-30 16:58:16,823:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 16:58:16,824:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 16:58:16,824:INFO:discord.client: logging in using static token
+2023-03-30 16:58:18,578:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 62c514d63a5735ae6e99b9b45828ddcc).
+2023-03-30 16:58:33,821:INFO:root: <@1090119054754316298> hi
+2023-03-30 16:58:33,824:INFO:root: <@1090119054754316298> hi
+2023-03-30 16:58:41,828:INFO:root: <@1090119054754316298> add
+2023-03-30 16:58:41,828:INFO:root: <@1090119054754316298> add
+2023-03-30 16:59:54,816:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 16:59:54,816:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 16:59:54,817:INFO:discord.client: logging in using static token
+2023-03-30 16:59:56,405:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: db9964ff179a230f8a913be0ea8eb734).
+2023-03-30 17:00:02,268:INFO:root: <@1090119054754316298> add
+2023-03-30 17:00:02,270:INFO:root: ['<@1090119054754316298>', 'add']
+2023-03-30 17:15:47,137:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:15:47,139:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:15:47,139:INFO:discord.client: logging in using static token
+2023-03-30 17:15:48,935:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: dffecaa32f752ace356df94eaff392e3).
+2023-03-30 17:16:26,298:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:16:26,300:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:16:26,300:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:16:26,338:INFO:root: Connected.
+2023-03-30 17:16:26,338:INFO:root: Reading data...
+2023-03-30 17:16:26,343:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 95, in on_message
+    await add_tasks(taskname, deadline, is_important, is_urgent)
+TypeError: object NoneType can't be used in 'await' expression
+2023-03-30 17:16:58,099:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:16:58,100:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:16:58,101:INFO:discord.client: logging in using static token
+2023-03-30 17:16:59,778:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: fcbffc90b779a996d457965092f71356).
+2023-03-30 17:17:05,324:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:17:05,324:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:17:05,325:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:17:05,358:INFO:root: Connected.
+2023-03-30 17:17:05,358:INFO:root: Reading data...
+2023-03-30 17:21:25,832:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:21:25,834:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:21:25,834:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:21:25,896:INFO:root: Connected.
+2023-03-30 17:21:25,897:INFO:root: Reading data...
+2023-03-30 17:21:25,897:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 95, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 72, in add_tasks
+    cur.execute("INSERT INTO tasks VALUES (%s, %s, %s, %s)", (taskname, deadline, is_important, is_urgent))
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2023-03-30 17:22:45,902:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:22:45,903:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:22:45,904:INFO:discord.client: logging in using static token
+2023-03-30 17:22:47,563:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: dd9acb70adf977e6aa45a9aae5c9ab4f).
+2023-03-30 17:22:52,198:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:22:52,198:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:22:52,198:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:22:52,217:INFO:root: Connected.
+2023-03-30 17:22:52,217:INFO:root: Reading data...
+2023-03-30 17:26:01,223:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:26:01,224:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:26:01,225:INFO:discord.client: logging in using static token
+2023-03-30 17:26:03,016:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: c81f4072ad0e62722a157fd64c1957cd).
+2023-03-30 17:26:10,275:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:26:10,277:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:26:10,277:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:26:10,310:INFO:root: Connected.
+2023-03-30 17:26:10,310:INFO:root: Reading data...
+2023-03-30 17:27:43,359:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:27:43,363:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:27:43,377:INFO:discord.client: logging in using static token
+2023-03-30 17:27:44,959:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: ddb3ef41845fd43f3598df2003b4367e).
+2023-03-30 17:28:08,867:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:28:08,868:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:28:08,869:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:28:08,912:INFO:root: Connected.
+2023-03-30 17:28:08,913:INFO:root: Reading data...
+2023-03-30 17:28:08,913:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 97, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 72, in add_tasks
+    cur.execute("INSERT INTO tasks VALUES (%s, %s, %s, %s)", (taskname, deadline, is_important, is_urgent))
+psycopg2.InterfaceError: cursor already closed
+2023-03-30 17:29:08,160:INFO:discord.gateway: Shard ID None has successfully RESUMED session ddb3ef41845fd43f3598df2003b4367e.
+2023-03-30 17:29:18,540:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:29:18,541:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:29:18,546:INFO:discord.client: logging in using static token
+2023-03-30 17:29:20,296:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 74a12ad8fbcf7652a52c83a25add0982).
+2023-03-30 17:29:38,336:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:29:38,338:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:29:38,338:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:29:38,387:INFO:root: Connected.
+2023-03-30 17:29:38,388:INFO:root: Reading data...
+2023-03-30 17:36:55,460:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:36:55,461:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:36:55,461:INFO:discord.client: logging in using static token
+2023-03-30 17:36:57,240:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: a37c85832ecab3d4a0a4f533c1c7f3de).
+2023-03-30 17:37:28,355:INFO:root: <@1090119054754316298> delete do_homework 11/2/2024 important not_urgent
+2023-03-30 17:37:28,356:INFO:root: ['<@1090119054754316298>', 'delete', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:38:07,677:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:38:07,679:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:38:07,679:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:38:07,736:INFO:root: Connected.
+2023-03-30 17:38:07,736:INFO:root: Reading data...
+2023-03-30 17:40:04,026:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:40:04,039:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:40:04,049:INFO:discord.client: logging in using static token
+2023-03-30 17:40:05,805:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: b96506f33684ac93f8f4e87de918ab44).
+2023-03-30 17:40:43,989:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:40:43,991:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:40:43,991:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:40:44,035:INFO:root: Connected.
+2023-03-30 17:40:44,035:INFO:root: Reading data...
+2023-03-30 17:42:32,342:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:42:32,343:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:42:32,343:INFO:discord.client: logging in using static token
+2023-03-30 17:42:34,061:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 6f726f005e041ec06c9c067e0446e888).
+2023-03-30 17:42:42,567:INFO:root: <@1090119054754316298> delete do_homework
+2023-03-30 17:42:42,568:INFO:root: ['<@1090119054754316298>', 'delete', 'do_homework']
+2023-03-30 17:43:17,821:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:43:17,822:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:43:17,822:INFO:discord.client: logging in using static token
+2023-03-30 17:43:19,506:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 01e35a93755286f86064b3b091759704).
+2023-03-30 17:43:53,523:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:43:53,526:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:43:53,526:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:43:53,577:INFO:root: Connected.
+2023-03-30 17:43:53,577:INFO:root: Reading data...
+2023-03-30 17:44:06,874:INFO:root: <@1090119054754316298> add do_assignment 11/2/2024 important not_urgent
+2023-03-30 17:44:06,875:INFO:root: ['<@1090119054754316298>', 'add', 'do_assignment', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:44:06,876:INFO:root: taskname: do_assignment, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:44:06,897:INFO:root: Connected.
+2023-03-30 17:44:06,897:INFO:root: Reading data...
+2023-03-30 17:44:32,865:INFO:root: <@1090119054754316298> delete do_homework
+2023-03-30 17:44:32,867:INFO:root: ['<@1090119054754316298>', 'delete', 'do_homework']
+2023-03-30 17:46:19,544:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:46:19,545:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:46:19,545:INFO:discord.client: logging in using static token
+2023-03-30 17:46:21,269:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 0eb9ae82c12b4d434d409f05ab55acc0).
+2023-03-30 17:46:28,206:INFO:root: <@1090119054754316298> delete do_homework
+2023-03-30 17:46:28,208:INFO:root: ['<@1090119054754316298>', 'delete', 'do_homework']
+2023-03-30 17:46:28,208:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 113, in on_message
+    taskname = result[3]
+IndexError: list index out of range
+2023-03-30 17:46:58,163:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 17:46:58,164:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 17:46:58,165:INFO:discord.client: logging in using static token
+2023-03-30 17:46:59,769:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: c6789d6ac75b72f1ded25d3845efd34d).
+2023-03-30 17:47:18,587:INFO:root: <@1090119054754316298> add do_assignment 11/2/2024 important not_urgent
+2023-03-30 17:47:18,589:INFO:root: ['<@1090119054754316298>', 'add', 'do_assignment', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:47:18,590:INFO:root: taskname: do_assignment, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:47:18,654:INFO:root: Connected.
+2023-03-30 17:47:18,654:INFO:root: Reading data...
+2023-03-30 17:47:26,473:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 17:47:26,474:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 17:47:26,474:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 17:47:26,495:INFO:root: Connected.
+2023-03-30 17:47:26,495:INFO:root: Reading data...
+2023-03-30 17:47:38,846:INFO:root: <@1090119054754316298> delete do_homework
+2023-03-30 17:47:38,847:INFO:root: ['<@1090119054754316298>', 'delete', 'do_homework']
+2023-03-30 17:47:38,847:INFO:root: taskname: do_homework
+2023-03-30 17:47:38,884:INFO:root: Connected.
+2023-03-30 17:47:38,884:INFO:root: Reading data...

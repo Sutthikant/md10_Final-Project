@@ -4,31 +4,6 @@ import os
 import random
 import dotenv
 
-# generate fake data for testing
-# our data will be sales history for a gift shop
-# we have the next tables:
-# 1. products
-# 2. customers
-# 3. orders
-# 4. order_items
-
-# products table
-# product_id, product_name, product_category
-
-# customers table
-# customer_id, customer_name
-
-# orders table
-# order_id, order_date, customer_id
-
-# order_items table
-# order_item_id, order_id, product_id, quantity, price
-
-# generate fake data for products table
-# we have 100 products in our shop
-# we have 10 categories of products
-# we have 10 products in each category
-
 
 dotenv.load_dotenv()
 
