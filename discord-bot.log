@@ -174,3 +174,272 @@ IndexError: list index out of range
 2023-03-30 17:47:38,847:INFO:root: taskname: do_homework
 2023-03-30 17:47:38,884:INFO:root: Connected.
 2023-03-30 17:47:38,884:INFO:root: Reading data...
+2023-03-30 19:16:55,442:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:16:55,444:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:16:55,444:INFO:discord.client: logging in using static token
+2023-03-30 19:16:57,273:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 27e5f7d0f64d09d36548d5de172ed806).
+2023-03-30 19:17:05,531:INFO:root: <@1090119054754316298> list
+2023-03-30 19:17:05,532:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:17:05,532:INFO:root: list all task
+2023-03-30 19:17:05,569:INFO:root: Connected.
+2023-03-30 19:17:05,570:INFO:root: Reading data...
+2023-03-30 19:18:10,691:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:18:10,692:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:18:10,693:INFO:discord.client: logging in using static token
+2023-03-30 19:18:12,495:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: c77cc2549d0912eb7f662808f4734923).
+2023-03-30 19:18:17,512:INFO:root: <@1090119054754316298> list
+2023-03-30 19:18:17,513:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:18:17,513:INFO:root: list all task
+2023-03-30 19:18:17,537:INFO:root: Connected.
+2023-03-30 19:18:17,537:INFO:root: Reading data...
+2023-03-30 19:18:17,546:INFO:root: Finished.
+2023-03-30 19:20:06,190:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:20:06,192:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:20:06,192:INFO:discord.client: logging in using static token
+2023-03-30 19:20:07,800:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: eb8cf3b8bd56d385921618d5281bbe0d).
+2023-03-30 19:20:12,949:INFO:root: <@1090119054754316298> list
+2023-03-30 19:20:12,951:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:20:12,951:INFO:root: list all task
+2023-03-30 19:20:12,985:INFO:root: Connected.
+2023-03-30 19:20:12,986:INFO:root: Reading data...
+2023-03-30 19:20:12,991:INFO:root: Finished.
+2023-03-30 19:20:13,392:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 137, in on_message
+    await message.channel.send(sentence)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-03-30 19:21:18,197:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:21:18,199:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:21:18,200:INFO:discord.client: logging in using static token
+2023-03-30 19:21:19,709:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: a0d50cb2e2510797f5f358b6b239694b).
+2023-03-30 19:21:26,116:INFO:root: <@1090119054754316298> list
+2023-03-30 19:21:26,117:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:21:26,118:INFO:root: list all task
+2023-03-30 19:21:26,159:INFO:root: Connected.
+2023-03-30 19:21:26,159:INFO:root: Reading data...
+2023-03-30 19:21:26,169:INFO:root: Finished.
+2023-03-30 19:22:14,931:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:22:14,932:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:22:14,932:INFO:discord.client: logging in using static token
+2023-03-30 19:22:16,438:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 8a0b744129d032efd6fd1b2991698403).
+2023-03-30 19:22:27,646:INFO:root: <@1090119054754316298> list
+2023-03-30 19:22:27,648:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:22:27,648:INFO:root: list all task
+2023-03-30 19:22:27,679:INFO:root: Connected.
+2023-03-30 19:22:27,679:INFO:root: Reading data...
+2023-03-30 19:22:27,686:INFO:root: Finished.
+2023-03-30 19:22:27,686:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 137, in on_message
+    await message.channel.send(f'1.{all_tasks[0][0]}\n2.\n3.\n')
+IndexError: list index out of range
+2023-03-30 19:23:17,981:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:23:17,984:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:23:17,991:INFO:discord.client: logging in using static token
+2023-03-30 19:23:19,472:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 2424a5f138ae5163cfdeda2986d1ca96).
+2023-03-30 19:23:25,503:INFO:root: <@1090119054754316298> list
+2023-03-30 19:23:25,504:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:23:25,504:INFO:root: list all task
+2023-03-30 19:23:25,543:INFO:root: Connected.
+2023-03-30 19:23:25,543:INFO:root: Reading data...
+2023-03-30 19:23:25,549:INFO:root: Finished.
+2023-03-30 19:24:43,036:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:24:43,037:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:24:43,037:INFO:discord.client: logging in using static token
+2023-03-30 19:24:44,677:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: e122022cfa19b65fe8156a54b30dece5).
+2023-03-30 19:24:50,185:INFO:root: <@1090119054754316298> list
+2023-03-30 19:24:50,187:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:24:50,187:INFO:root: list all task
+2023-03-30 19:24:50,220:INFO:root: Connected.
+2023-03-30 19:24:50,220:INFO:root: Reading data...
+2023-03-30 19:24:50,227:INFO:root: Finished.
+2023-03-30 19:24:50,595:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 138, in on_message
+    await message.channel.send(f'{sentence}')
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-03-30 19:26:40,550:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:26:40,551:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:26:40,551:INFO:discord.client: logging in using static token
+2023-03-30 19:26:42,212:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 15c00c2705129cfb1f3b1760217df910).
+2023-03-30 19:26:47,036:INFO:root: <@1090119054754316298> list
+2023-03-30 19:26:47,037:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:26:47,037:INFO:root: list all task
+2023-03-30 19:26:47,089:INFO:root: Connected.
+2023-03-30 19:26:47,090:INFO:root: Reading data...
+2023-03-30 19:26:47,104:INFO:root: Finished.
+2023-03-30 19:27:23,669:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:27:23,670:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:27:23,670:INFO:discord.client: logging in using static token
+2023-03-30 19:27:25,271:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 2671a1b53d892426a2cd6575a3afc11c).
+2023-03-30 19:27:29,669:INFO:root: <@1090119054754316298> list
+2023-03-30 19:27:29,670:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:27:29,670:INFO:root: list all task
+2023-03-30 19:27:29,704:INFO:root: Connected.
+2023-03-30 19:27:29,705:INFO:root: Reading data...
+2023-03-30 19:27:29,710:INFO:root: Finished.
+2023-03-30 19:28:12,809:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:28:12,824:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:28:12,829:INFO:discord.client: logging in using static token
+2023-03-30 19:28:14,593:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: fe6302b27449531bee1af751d967375c).
+2023-03-30 19:28:18,208:INFO:root: <@1090119054754316298> list
+2023-03-30 19:28:18,209:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:28:18,209:INFO:root: list all task
+2023-03-30 19:28:18,255:INFO:root: Connected.
+2023-03-30 19:28:18,255:INFO:root: Reading data...
+2023-03-30 19:28:18,263:INFO:root: Finished.
+2023-03-30 19:28:18,264:INFO:root: []
+2023-03-30 19:30:05,762:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:30:05,769:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:30:05,772:INFO:discord.client: logging in using static token
+2023-03-30 19:30:07,348:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: dbab46bff8c41e226863030debe615c3).
+2023-03-30 19:30:11,809:INFO:root: <@1090119054754316298> list
+2023-03-30 19:30:11,810:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:30:11,810:INFO:root: list all task
+2023-03-30 19:30:11,836:INFO:root: Connected.
+2023-03-30 19:30:11,837:INFO:root: Reading data...
+2023-03-30 19:30:11,843:INFO:root: Finished.
+2023-03-30 19:30:11,844:INFO:root: []
+2023-03-30 19:31:01,293:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:31:01,294:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:31:01,294:INFO:discord.client: logging in using static token
+2023-03-30 19:31:02,893:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: b1be67942ae2742941e4907393bbc0ea).
+2023-03-30 19:31:06,344:INFO:root: <@1090119054754316298> list
+2023-03-30 19:31:06,344:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:31:06,344:INFO:root: list all task
+2023-03-30 19:31:06,388:INFO:root: Connected.
+2023-03-30 19:31:06,388:INFO:root: Reading data...
+2023-03-30 19:31:06,397:INFO:root: []
+2023-03-30 19:31:06,402:INFO:root: Finished.
+2023-03-30 19:31:06,402:INFO:root: []
+2023-03-30 19:37:36,052:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:37:36,054:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:37:36,063:INFO:discord.client: logging in using static token
+2023-03-30 19:37:37,791:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 9ab0e80dc90dfba614948654b10e61ab).
+2023-03-30 19:37:51,132:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 19:37:51,133:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:37:51,133:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:37:51,193:INFO:root: Connected.
+2023-03-30 19:37:51,193:INFO:root: Reading data...
+2023-03-30 19:38:09,727:INFO:root: <@1090119054754316298> add do_assignment 11/2/2024 important not_urgent
+2023-03-30 19:38:09,729:INFO:root: ['<@1090119054754316298>', 'add', 'do_assignment', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:38:09,729:INFO:root: taskname: do_assignment, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:38:09,784:INFO:root: Connected.
+2023-03-30 19:38:09,785:INFO:root: Reading data...
+2023-03-30 19:38:17,769:INFO:root: <@1090119054754316298> list
+2023-03-30 19:38:17,770:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:38:17,770:INFO:root: list all task
+2023-03-30 19:38:17,793:INFO:root: Connected.
+2023-03-30 19:38:17,794:INFO:root: Reading data...
+2023-03-30 19:38:17,798:INFO:root: [('do_homework', '11/2/2024', 'important', 'not_urgent'), ('do_assignment', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:38:17,799:INFO:root: Finished.
+2023-03-30 19:38:17,799:INFO:root: [('do_homework', '11/2/2024', 'important', 'not_urgent'), ('do_assignment', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:38:17,799:INFO:root: 1. task_name:do_homework, deadline:11/2/2024, important not_urgent
+
+2023-03-30 19:38:17,800:INFO:root: 2. task_name:do_assignment, deadline:11/2/2024, important not_urgent
+
+2023-03-30 19:38:43,111:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:38:43,112:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:38:43,120:INFO:discord.client: logging in using static token
+2023-03-30 19:38:44,949:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 7fecca41cd660cf3d284ba34fd2b172c).
+2023-03-30 19:38:50,916:INFO:root: <@1090119054754316298> list
+2023-03-30 19:38:50,917:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:38:50,917:INFO:root: list all task
+2023-03-30 19:38:50,937:INFO:root: Connected.
+2023-03-30 19:38:50,937:INFO:root: Reading data...
+2023-03-30 19:38:50,944:INFO:root: []
+2023-03-30 19:38:50,945:INFO:root: Finished.
+2023-03-30 19:38:50,945:INFO:root: []
+2023-03-30 19:38:51,329:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 143, in on_message
+    await message.channel.send(f'{sentence}')
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/abc.py", line 1561, in send
+    data = await state.http.send_message(channel.id, params=params)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/http.py", line 744, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50006): Cannot send an empty message
+2023-03-30 19:39:51,023:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:39:51,024:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:39:51,025:INFO:discord.client: logging in using static token
+2023-03-30 19:39:52,858:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: bd8cf9fa08877ccfbf6a66afc2df6259).
+2023-03-30 19:40:06,726:INFO:root: <@1090119054754316298> add do_assignment 11/2/2024 important not_urgent
+2023-03-30 19:40:06,728:INFO:root: ['<@1090119054754316298>', 'add', 'do_assignment', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:40:06,728:INFO:root: taskname: do_assignment, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:40:06,778:INFO:root: Connected.
+2023-03-30 19:40:06,778:INFO:root: Reading data...
+2023-03-30 19:40:19,610:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 19:40:19,611:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:40:19,612:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:40:19,629:INFO:root: Connected.
+2023-03-30 19:40:19,629:INFO:root: Reading data...
+2023-03-30 19:40:45,845:INFO:root: <@1090119054754316298> list
+2023-03-30 19:40:45,846:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:40:45,846:INFO:root: list all task
+2023-03-30 19:40:45,898:INFO:root: Connected.
+2023-03-30 19:40:45,898:INFO:root: Reading data...
+2023-03-30 19:40:45,907:INFO:root: [('do_assignment', '11/2/2024', 'important', 'not_urgent'), ('do_homework', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:40:45,908:INFO:root: Finished.
+2023-03-30 19:40:45,908:INFO:root: [('do_assignment', '11/2/2024', 'important', 'not_urgent'), ('do_homework', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:40:45,908:INFO:root: 1. task_name:do_assignment, deadline:11/2/2024, important not_urgent
+
+2023-03-30 19:40:45,909:INFO:root: 2. task_name:do_homework, deadline:11/2/2024, important not_urgent
+
+2023-03-30 19:41:18,507:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:41:18,511:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:41:18,512:INFO:discord.client: logging in using static token
+2023-03-30 19:41:20,290:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 4f969f0e4a3165d4d247b235fbab0fe9).
+2023-03-30 19:41:24,207:INFO:root: <@1090119054754316298> list
+2023-03-30 19:41:24,208:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:41:24,208:INFO:root: list all task
+2023-03-30 19:41:24,251:INFO:root: Connected.
+2023-03-30 19:41:24,251:INFO:root: Reading data...
+2023-03-30 19:41:24,255:INFO:root: []
+2023-03-30 19:41:24,256:INFO:root: Finished.
+2023-03-30 19:41:24,256:INFO:root: []
+2023-03-30 19:45:03,928:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:45:03,930:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:45:03,930:INFO:discord.client: logging in using static token
+2023-03-30 19:45:05,702:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: b3511b831d841e7934f80fdd34c9eb12).
+2023-03-30 19:45:13,804:INFO:root: <@1090119054754316298> add do_homework 11/2/2024 important not_urgent
+2023-03-30 19:45:13,805:INFO:root: ['<@1090119054754316298>', 'add', 'do_homework', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:45:13,805:INFO:root: taskname: do_homework, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:45:13,934:INFO:root: Connected.
+2023-03-30 19:45:13,935:INFO:root: Reading data...
+2023-03-30 19:45:21,466:INFO:root: <@1090119054754316298> add do_assignment 11/2/2024 important not_urgent
+2023-03-30 19:45:21,466:INFO:root: ['<@1090119054754316298>', 'add', 'do_assignment', '11/2/2024', 'important', 'not_urgent']
+2023-03-30 19:45:21,467:INFO:root: taskname: do_assignment, deadline: 11/2/2024, is_important: important, is_Urgent: not_urgent
+2023-03-30 19:45:21,485:INFO:root: Connected.
+2023-03-30 19:45:21,485:INFO:root: Reading data...
+2023-03-30 19:45:44,444:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-30 19:45:44,453:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-30 19:45:44,458:INFO:discord.client: logging in using static token
+2023-03-30 19:45:46,289:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: cf5990f457b96ac79f05d0b3ec9b9894).
+2023-03-30 19:45:59,051:INFO:root: <@1090119054754316298> list
+2023-03-30 19:45:59,053:INFO:root: ['<@1090119054754316298>', 'list']
+2023-03-30 19:45:59,053:INFO:root: list all task
+2023-03-30 19:45:59,106:INFO:root: Connected.
+2023-03-30 19:45:59,106:INFO:root: Reading data...
+2023-03-30 19:45:59,112:INFO:root: [('do_homework', '11/2/2024', 'important', 'not_urgent'), ('do_assignment', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:45:59,113:INFO:root: Finished.
+2023-03-30 19:45:59,113:INFO:root: [('do_homework', '11/2/2024', 'important', 'not_urgent'), ('do_assignment', '11/2/2024', 'important', 'not_urgent')]
+2023-03-30 19:45:59,113:INFO:root: 1. task_name:do_homework, deadline:11/2/2024, important not_urgent
+
+2023-03-30 19:45:59,113:INFO:root: 2. task_name:do_assignment, deadline:11/2/2024, important not_urgent
+

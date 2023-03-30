@@ -86,6 +86,23 @@ def delete_tasks(taskname):
     conn.commit()
     cur.close()
 
+def list_all_tasks(all_tasks):
+
+    logging.info(f"list all task")
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+    logging.info('Connected.')
+    logging.info('Reading data...')
+    cur.execute("SELECT * FROM tasks")
+    all_task = cur.fetchall()
+    logging.info(f"{all_task}")
+    for task in all_task:
+        all_tasks.append(task)
+    conn.commit()
+    cur.close()
+    logging.info('Finished.')
+
 class MyClient(discord.Client):
     
     async def on_ready(self):
@@ -112,6 +129,20 @@ class MyClient(discord.Client):
                 taskname = result[2]
                 delete_tasks(taskname)
                 await message.channel.send('Delete task successfully!!!')
+            elif result[1] == 'list' :
+                all_tasks = []
+                list_all_tasks(all_tasks)
+                count = 0
+                sentence = "list of all tasks\n\n"
+                logging.info(all_tasks)
+                for task in all_tasks:
+                    print(1)
+                    count += 1
+                    line = f"{count}. task_name: {task[0]}, deadline: {task[1]}, {task[2]} {task[3]}\n\n"
+                    sentence += line
+                    logging.info(line)
+                await message.channel.send(f'{sentence}')
+
             else:
                 await message.channel.send('Sorry, I do not understand you')
 
@@ -120,13 +151,6 @@ load_dotenv()
 openai.api_key = os.getenv('OPEN_API_KEY')
 intents = discord.Intents.default()
 intents.message_content = True
-conn = get_db_connection()
-cur = conn.cursor()
-cur.execute("DROP TABLE IF EXISTS tasks")
-cur.execute("CREATE TABLE tasks (tasks_name varchar(255), deadline varchar(255), is_important varchar(255), is_urgent varchar(255))")
-conn.commit()
-cur.close()
-conn.close()
 client = MyClient(intents=intents)
 client.run(os.getenv('DISCORD_BOT_TOKEN'))
 
