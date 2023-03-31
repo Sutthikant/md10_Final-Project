@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Tasks</title>
+</head>
+<body>
+    <h1>ALL TASKS</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Tasks</th>
+                <th>Deadline</th>
+                <th>Important?</th>
+                <th>Urgent?</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for task in tasks %}
+                <tr>
+                    <td>{{ task[0] }}</td>
+                    <td>{{ task[1] }}</td>
+                    <td>{{ task[2] }}</td>
+                    <td>{{ task[3] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
