@@ -700,3 +700,155 @@ Traceback (most recent call last):
 aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host gateway.discord.gg:443 ssl:default [nodename nor servname provided, or not known]
 2023-03-31 09:14:34,617:INFO:discord.gateway: Shard ID None session has been invalidated.
 2023-03-31 09:14:40,569:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 09446eaa7fd8e22e165acc7a6887b04c).
+2023-03-31 09:30:14,290:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-31 09:30:14,291:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-31 09:30:14,291:INFO:discord.client: logging in using static token
+2023-03-31 09:30:15,686:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 99677dfd1a1d6d3c6b4bcc933476abcf).
+2023-03-31 09:30:25,539:INFO:root: <@1090119054754316298> add cleaning_room NAN not_important not_urgent
+2023-03-31 09:30:25,540:INFO:root: ['<@1090119054754316298>', 'add', 'cleaning_room', 'NAN', 'not_important', 'not_urgent']
+2023-03-31 09:30:25,541:INFO:root: taskname: cleaning_room, deadline: NAN, is_important: not_important, is_Urgent: not_urgent
+2023-03-31 09:30:25,550:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2023-03-31 09:31:06,775:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-31 09:31:06,776:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-31 09:31:06,776:INFO:discord.client: logging in using static token
+2023-03-31 09:31:08,163:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: da4ff540e7c5ce3902b20f4c0b83ba4c).
+2023-03-31 09:31:13,539:INFO:root: <@1090119054754316298> add cleaning_room NAN not_important not_urgent
+2023-03-31 09:31:13,540:INFO:root: ['<@1090119054754316298>', 'add', 'cleaning_room', 'NAN', 'not_important', 'not_urgent']
+2023-03-31 09:31:13,540:INFO:root: taskname: cleaning_room, deadline: NAN, is_important: not_important, is_Urgent: not_urgent
+2023-03-31 09:31:13,543:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+2023-03-31 09:32:01,230:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2023-03-31 09:32:01,231:DEBUG:asyncio: Using selector: KqueueSelector
+2023-03-31 09:32:01,232:INFO:discord.client: logging in using static token
+2023-03-31 09:32:02,735:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 09099191b77f1813c5ee0ff7c8c05270).
+2023-03-31 09:32:07,915:INFO:root: <@1090119054754316298> add cleaning_room NAN not_important not_urgent
+2023-03-31 09:32:07,916:INFO:root: ['<@1090119054754316298>', 'add', 'cleaning_room', 'NAN', 'not_important', 'not_urgent']
+2023-03-31 09:32:07,917:INFO:root: taskname: cleaning_room, deadline: NAN, is_important: not_important, is_Urgent: not_urgent
+2023-03-31 09:32:53,674:WARNING:discord.gateway: Shard ID None heartbeat blocked for more than 10 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 155, in <module>
+    client.run(os.getenv('DISCORD_BOT_TOKEN'))
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 860, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+
+2023-03-31 09:33:03,680:WARNING:discord.gateway: Shard ID None heartbeat blocked for more than 20 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 155, in <module>
+    client.run(os.getenv('DISCORD_BOT_TOKEN'))
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 860, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+
+2023-03-31 09:33:13,687:WARNING:discord.gateway: Shard ID None heartbeat blocked for more than 30 seconds.
+Loop thread traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 155, in <module>
+    client.run(os.getenv('DISCORD_BOT_TOKEN'))
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 860, in run
+    asyncio.run(runner())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 628, in run_until_complete
+    self.run_forever()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 595, in run_forever
+    self._run_once()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1881, in _run_once
+    handle._run()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+
+2023-03-31 09:33:22,921:ERROR:discord.client: Ignoring exception in on_message
+Traceback (most recent call last):
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 126, in on_message
+    add_tasks(taskname, deadline, is_important, is_urgent)
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 69, in add_tasks
+    conn = get_db_connection()
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/discord_bot.py", line 57, in get_db_connection
+    conn = psycopg2.connect(
+  File "/Users/sutthikant.k/Documents/Habour.Space/NewModule10/Final Project/finalEnv/lib/python3.10/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "13.212.151.177", port 5432 failed: Operation timed out
+	Is the server running on that host and accepting TCP/IP connections?
+
+2023-03-31 09:33:23,954:INFO:discord.gateway: Shard ID None has successfully RESUMED session 09099191b77f1813c5ee0ff7c8c05270.
